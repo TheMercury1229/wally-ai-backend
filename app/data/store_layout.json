@@ -1,0 +1,39 @@
+{
+    "store_id": "walmart_001",
+    "layout": {
+      "Grocery": {
+        "Aisle 1": [
+          {"name": "bread", "shelf": "B1", "stock": true},
+          {"name": "jam", "shelf": "B2", "stock": true},
+          {"name": "butter", "shelf": "B3", "stock": false}
+        ],
+        "Aisle 2": [
+          {"name": "rice", "shelf": "G1", "stock": true},
+          {"name": "wheat", "shelf": "G2", "stock": true},
+          {"name": "lentils", "shelf": "G3", "stock": true}
+        ]
+      },
+      "Dairy": {
+        "Aisle 3": [
+          {"name": "milk", "shelf": "D1", "stock": true},
+          {"name": "yogurt", "shelf": "D2", "stock": true},
+          {"name": "cheese", "shelf": "D3", "stock": true}
+        ]
+      },
+      "Snacks": {
+        "Aisle 4": [
+          {"name": "chips", "shelf": "S1", "stock": true},
+          {"name": "salsa", "shelf": "S2", "stock": true},
+          {"name": "nachos", "shelf": "S3", "stock": false}
+        ]
+      },
+      "Personal Care": {
+        "Aisle 5": [
+          {"name": "shampoo", "shelf": "P1", "stock": true},
+          {"name": "soap", "shelf": "P2", "stock": true},
+          {"name": "toothpaste", "shelf": "P3", "stock": true}
+        ]
+      }
+    }
+  }
+  
