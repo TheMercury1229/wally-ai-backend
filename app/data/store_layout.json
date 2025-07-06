@@ -3,35 +3,37 @@
     "layout": {
       "Grocery": {
         "Aisle 1": [
-          {"name": "bread", "shelf": "B1", "stock": true},
-          {"name": "jam", "shelf": "B2", "stock": true},
-          {"name": "butter", "shelf": "B3", "stock": false}
+          {"name": "bread", "shelf": "B1", "stock": true,"price": 2.0},
+          {"name": "jam", "shelf": "B2", "stock": true,"price": 1.5},
+          {"name": "butter", "shelf": "B3", "stock": false,"price": 1.5},
+          {"name": "jam", "shelf": "B2", "stock": true,"price": 1.3},
+          {"name": "butter", "shelf": "B3", "stock": false,"price": 2.6}
         ],
         "Aisle 2": [
-          {"name": "rice", "shelf": "G1", "stock": true},
-          {"name": "wheat", "shelf": "G2", "stock": true},
-          {"name": "lentils", "shelf": "G3", "stock": true}
+          {"name": "rice", "shelf": "G1", "stock": true,"price": 2.0},
+          {"name": "wheat", "shelf": "G2", "stock": true, "price": 1.5},
+          {"name": "lentils", "shelf": "G3", "stock": true, "price": 1.2}
         ]
       },
       "Dairy": {
         "Aisle 3": [
-          {"name": "milk", "shelf": "D1", "stock": true},
-          {"name": "yogurt", "shelf": "D2", "stock": true},
-          {"name": "cheese", "shelf": "D3", "stock": true}
+          {"name": "milk", "shelf": "D1", "stock": true,"price":1.2},
+          {"name": "yogurt", "shelf": "D2", "stock": true,"price":2.0},
+          {"name": "cheese", "shelf": "D3", "stock": true,"price":2.7}
         ]
       },
       "Snacks": {
         "Aisle 4": [
-          {"name": "chips", "shelf": "S1", "stock": true},
-          {"name": "salsa", "shelf": "S2", "stock": true},
-          {"name": "nachos", "shelf": "S3", "stock": false}
+          {"name": "chips", "shelf": "S1", "stock": true,"price":1.6},
+          {"name": "salsa", "shelf": "S2", "stock": true,"price":1.8},
+          {"name": "nachos", "shelf": "S3", "stock": false,"price":2.6}
         ]
       },
       "Personal Care": {
         "Aisle 5": [
-          {"name": "shampoo", "shelf": "P1", "stock": true},
-          {"name": "soap", "shelf": "P2", "stock": true},
-          {"name": "toothpaste", "shelf": "P3", "stock": true}
+          {"name": "shampoo", "shelf": "P1", "stock": true,"price":12},
+          {"name": "soap", "shelf": "P2", "stock": true,"price":1.22},
+          {"name": "toothpaste", "shelf": "P3", "stock": true,"price":11.2}
         ]
       }
     }
