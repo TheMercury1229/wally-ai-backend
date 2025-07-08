@@ -57,6 +57,8 @@ For each item, give:
 Return a clear, clean bullet list like:
 • Milk – ₹1.5 – Dairy, Aisle 3
 
+Add an explanation of why each item is suitable for the purpose in a funny human way.
+
 If no relevant items, say: \"Sorry, I couldn’t find anything good for that purpose right now.\"
 """
 

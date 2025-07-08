@@ -1,41 +1,162 @@
 {
-    "store_id": "walmart_001",
-    "layout": {
-      "Grocery": {
-        "Aisle 1": [
-          {"name": "bread", "shelf": "B1", "stock": true,"price": 2.0},
-          {"name": "jam", "shelf": "B2", "stock": true,"price": 1.5},
-          {"name": "butter", "shelf": "B3", "stock": false,"price": 1.5},
-          {"name": "jam", "shelf": "B2", "stock": true,"price": 1.3},
-          {"name": "butter", "shelf": "B3", "stock": false,"price": 2.6}
-        ],
-        "Aisle 2": [
-          {"name": "rice", "shelf": "G1", "stock": true,"price": 2.0},
-          {"name": "wheat", "shelf": "G2", "stock": true, "price": 1.5},
-          {"name": "lentils", "shelf": "G3", "stock": true, "price": 1.2}
-        ]
-      },
-      "Dairy": {
-        "Aisle 3": [
-          {"name": "milk", "shelf": "D1", "stock": true,"price":1.2},
-          {"name": "yogurt", "shelf": "D2", "stock": true,"price":2.0},
-          {"name": "cheese", "shelf": "D3", "stock": true,"price":2.7}
-        ]
-      },
-      "Snacks": {
-        "Aisle 4": [
-          {"name": "chips", "shelf": "S1", "stock": true,"price":1.6},
-          {"name": "salsa", "shelf": "S2", "stock": true,"price":1.8},
-          {"name": "nachos", "shelf": "S3", "stock": false,"price":2.6}
-        ]
-      },
-      "Personal Care": {
-        "Aisle 5": [
-          {"name": "shampoo", "shelf": "P1", "stock": true,"price":12},
-          {"name": "soap", "shelf": "P2", "stock": true,"price":1.22},
-          {"name": "toothpaste", "shelf": "P3", "stock": true,"price":11.2}
-        ]
-      }
+  "store_id": "walmart_001",
+  "layout": {
+    "Grocery": {
+      "Aisle 1": [
+        {"name": "bread", "shelf": "B1", "stock": true, "price": 2.0},
+        {"name": "jam", "shelf": "B2", "stock": true, "price": 1.5},
+        {"name": "butter", "shelf": "B3", "stock": false, "price": 1.5},
+        {"name": "peanut butter", "shelf": "B4", "stock": true, "price": 3.2},
+        {"name": "honey", "shelf": "B5", "stock": true, "price": 4.8},
+        {"name": "nutella", "shelf": "B6", "stock": false, "price": 5.1}
+      ],
+      "Aisle 2": [
+        {"name": "rice", "shelf": "G1", "stock": true, "price": 2.0},
+        {"name": "wheat", "shelf": "G2", "stock": true, "price": 1.5},
+        {"name": "lentils", "shelf": "G3", "stock": true, "price": 1.2},
+        {"name": "quinoa", "shelf": "G4", "stock": true, "price": 6.8},
+        {"name": "pasta", "shelf": "G5", "stock": true, "price": 1.8},
+        {"name": "oats", "shelf": "G6", "stock": false, "price": 2.4}
+      ],
+      "Aisle 15": [
+        {"name": "olive oil", "shelf": "C1", "stock": true, "price": 7.5},
+        {"name": "vinegar", "shelf": "C2", "stock": true, "price": 2.1},
+        {"name": "salt", "shelf": "C3", "stock": true, "price": 0.8},
+        {"name": "pepper", "shelf": "C4", "stock": true, "price": 3.6},
+        {"name": "garlic powder", "shelf": "C5", "stock": false, "price": 2.9},
+        {"name": "paprika", "shelf": "C6", "stock": true, "price": 4.2}
+      ]
+    },
+    "Dairy": {
+      "Aisle 3": [
+        {"name": "milk", "shelf": "D1", "stock": true, "price": 1.2},
+        {"name": "yogurt", "shelf": "D2", "stock": true, "price": 2.0},
+        {"name": "cheese", "shelf": "D3", "stock": true, "price": 2.7},
+        {"name": "eggs", "shelf": "D4", "stock": true, "price": 1.9},
+        {"name": "cream", "shelf": "D5", "stock": false, "price": 3.4}
+      ],
+      "Aisle 12": [
+        {"name": "ice cream", "shelf": "F1", "stock": true, "price": 4.5},
+        {"name": "frozen yogurt", "shelf": "F2", "stock": true, "price": 3.8},
+        {"name": "frozen berries", "shelf": "F3", "stock": true, "price": 5.2},
+        {"name": "frozen pizza", "shelf": "F4", "stock": false, "price": 6.7},
+        {"name": "frozen vegetables", "shelf": "F5", "stock": true, "price": 2.3}
+      ]
+    },
+    "Snacks": {
+      "Aisle 4": [
+        {"name": "chips", "shelf": "S1", "stock": true, "price": 1.6},
+        {"name": "salsa", "shelf": "S2", "stock": true, "price": 1.8},
+        {"name": "nachos", "shelf": "S3", "stock": false, "price": 2.6},
+        {"name": "popcorn", "shelf": "S4", "stock": true, "price": 3.1},
+        {"name": "pretzels", "shelf": "S5", "stock": true, "price": 2.4},
+        {"name": "crackers", "shelf": "S6", "stock": true, "price": 1.9}
+      ],
+      "Aisle 8": [
+        {"name": "chocolate", "shelf": "T1", "stock": true, "price": 2.8},
+        {"name": "gummy bears", "shelf": "T2", "stock": true, "price": 1.4},
+        {"name": "lollipops", "shelf": "T3", "stock": false, "price": 0.9},
+        {"name": "cookies", "shelf": "T4", "stock": true, "price": 3.7},
+        {"name": "cake mix", "shelf": "T5", "stock": true, "price": 2.6}
+      ]
+    },
+    "Personal Care": {
+      "Aisle 5": [
+        {"name": "shampoo", "shelf": "P1", "stock": true, "price": 12.0},
+        {"name": "soap", "shelf": "P2", "stock": true, "price": 1.22},
+        {"name": "toothpaste", "shelf": "P3", "stock": true, "price": 11.2},
+        {"name": "deodorant", "shelf": "P4", "stock": false, "price": 8.9},
+        {"name": "lotion", "shelf": "P5", "stock": true, "price": 6.3},
+        {"name": "tissues", "shelf": "P6", "stock": true, "price": 2.1}
+      ],
+      "Aisle 11": [
+        {"name": "toilet paper", "shelf": "H1", "stock": true, "price": 9.5},
+        {"name": "paper towels", "shelf": "H2", "stock": true, "price": 7.8},
+        {"name": "laundry detergent", "shelf": "H3", "stock": true, "price": 15.2},
+        {"name": "fabric softener", "shelf": "H4", "stock": false, "price": 11.6},
+        {"name": "bleach", "shelf": "H5", "stock": true, "price": 4.9}
+      ]
+    },
+    "Beverages": {
+      "Aisle 6": [
+        {"name": "water", "shelf": "W1", "stock": true, "price": 0.5},
+        {"name": "soda", "shelf": "W2", "stock": true, "price": 1.8},
+        {"name": "juice", "shelf": "W3", "stock": true, "price": 2.9},
+        {"name": "coffee", "shelf": "W4", "stock": true, "price": 8.7},
+        {"name": "tea", "shelf": "W5", "stock": false, "price": 3.4},
+        {"name": "energy drink", "shelf": "W6", "stock": true, "price": 2.6}
+      ],
+      "Aisle 14": [
+        {"name": "beer", "shelf": "A1", "stock": true, "price": 12.9},
+        {"name": "wine", "shelf": "A2", "stock": true, "price": 18.5},
+        {"name": "whiskey", "shelf": "A3", "stock": false, "price": 35.7},
+        {"name": "vodka", "shelf": "A4", "stock": true, "price": 28.4},
+        {"name": "rum", "shelf": "A5", "stock": true, "price": 22.1}
+      ]
+    },
+    "Electronics": {
+      "Aisle 7": [
+        {"name": "headphones", "shelf": "E1", "stock": true, "price": 45.8},
+        {"name": "phone charger", "shelf": "E2", "stock": true, "price": 12.3},
+        {"name": "batteries", "shelf": "E3", "stock": true, "price": 6.7},
+        {"name": "memory card", "shelf": "E4", "stock": false, "price": 18.9},
+        {"name": "bluetooth speaker", "shelf": "E5", "stock": true, "price": 67.2},
+        {"name": "phone case", "shelf": "E6", "stock": true, "price": 9.4}
+      ],
+      "Aisle 18": [
+        {"name": "laptop", "shelf": "T1", "stock": true, "price": 599.0},
+        {"name": "tablet", "shelf": "T2", "stock": false, "price": 249.5},
+        {"name": "smartwatch", "shelf": "T3", "stock": true, "price": 189.7},
+        {"name": "camera", "shelf": "T4", "stock": true, "price": 334.2},
+        {"name": "gaming mouse", "shelf": "T5", "stock": true, "price": 29.8}
+      ]
+    },
+    "Pharmacy": {
+      "Aisle 9": [
+        {"name": "aspirin", "shelf": "M1", "stock": true, "price": 7.8},
+        {"name": "bandages", "shelf": "M2", "stock": true, "price": 3.2},
+        {"name": "cough syrup", "shelf": "M3", "stock": false, "price": 9.6},
+        {"name": "vitamins", "shelf": "M4", "stock": true, "price": 14.7},
+        {"name": "thermometer", "shelf": "M5", "stock": true, "price": 12.5},
+        {"name": "hand sanitizer", "shelf": "M6", "stock": true, "price": 2.9}
+      ]
+    },
+    "Clothing": {
+      "Aisle 10": [
+        {"name": "t-shirt", "shelf": "C1", "stock": true, "price": 8.9},
+        {"name": "jeans", "shelf": "C2", "stock": true, "price": 24.5},
+        {"name": "socks", "shelf": "C3", "stock": true, "price": 3.7},
+        {"name": "underwear", "shelf": "C4", "stock": false, "price": 6.2},
+        {"name": "jacket", "shelf": "C5", "stock": true, "price": 45.8},
+        {"name": "shoes", "shelf": "C6", "stock": true, "price": 32.1}
+      ],
+      "Aisle 16": [
+        {"name": "hat", "shelf": "A1", "stock": true, "price": 12.4},
+        {"name": "sunglasses", "shelf": "A2", "stock": true, "price": 18.9},
+        {"name": "belt", "shelf": "A3", "stock": false, "price": 15.6},
+        {"name": "watch", "shelf": "A4", "stock": true, "price": 89.7},
+        {"name": "backpack", "shelf": "A5", "stock": true, "price": 28.3}
+      ]
+    },
+    "Sports": {
+      "Aisle 13": [
+        {"name": "basketball", "shelf": "SP1", "stock": true, "price": 19.8},
+        {"name": "tennis balls", "shelf": "SP2", "stock": true, "price": 6.5},
+        {"name": "yoga mat", "shelf": "SP3", "stock": false, "price": 23.7},
+        {"name": "dumbbells", "shelf": "SP4", "stock": true, "price": 34.9},
+        {"name": "running shoes", "shelf": "SP5", "stock": true, "price": 67.4},
+        {"name": "water bottle", "shelf": "SP6", "stock": true, "price": 8.2}
+      ]
+    },
+    "Garden": {
+      "Aisle 17": [
+        {"name": "plant seeds", "shelf": "G1", "stock": true, "price": 2.8},
+        {"name": "fertilizer", "shelf": "G2", "stock": true, "price": 12.4},
+        {"name": "garden hose", "shelf": "G3", "stock": false, "price": 28.9},
+        {"name": "flower pot", "shelf": "G4", "stock": true, "price": 7.6},
+        {"name": "pruning shears", "shelf": "G5", "stock": true, "price": 15.3},
+        {"name": "mulch", "shelf": "G6", "stock": true, "price": 9.7}
+      ]
     }
   }
-  
+}
